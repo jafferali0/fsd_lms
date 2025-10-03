@@ -1,0 +1,145 @@
+/* # login Page Styles */
+
+.login-page {
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  width: 50%;
+  justify-items: center;
+  border: 1.5px solid #cdcdcd;
+  padding: 3%;
+  border-radius: 10px;
+  border-style: solid;
+  box-shadow: 2px 3px #cdcdcd;
+}
+.login-form input {
+  width: 80%;
+  cursor: pointer;
+}
+.login-form label {
+  width: 80%;
+}
+.login-logo {
+  display: flex;
+  justify-self: center;
+  width: 50%;
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .login-page {
+    width: 100vw;
+  }
+  .login-form {
+    width: 90%;
+    height: fit-content;
+  }
+  .login-form input {
+    width: 80%;
+    cursor: pointer;
+    height: fit-content;
+  }
+  .login-form label {
+    width: 80%;
+    height: fit-content;
+  }
+  .login-logo {
+    display: flex;
+    justify-self: center;
+    width: 50%;
+  }
+}
+/* # login Page Styles */
+
+/* Dashboard page styles */
+
+.dashboard-body {
+  display: flex;
+  border-bottom: 1.5px solid #cdcdcd;
+  height: 85vh;
+}
+.dash-search {
+  width: 65%;
+  border-right: 1.5px solid #cdcdcd;
+}
+.dash-search .search-bar {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border: 1.5px solid #cdcdcd;
+  padding: 8px;
+  width: 50%;
+  justify-self: center;
+  margin: 15% 0 10% 0;
+  border-radius: 10px;
+}
+.dash-search .search-bar input {
+  display: flex;
+  height: 25px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-right: 1px solid #cdcdcd;
+  margin-right: 6px;
+}
+.search-btn {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+.imp-topics {
+  border-top: 1.5px solid #cdcdcd;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.imp-topics .carsolen-nav-btn {
+  height: 25px;
+  width: 25px;
+}
+.imp-topics .carsolen-nav-btn:hover {
+    cursor: pointer;
+}
+.uploads-scroll {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.uploads-scroll .title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1.5px solid #cdcdcd;
+  font-size: larger;
+}
+.uploads-scroll .scrolling-content {
+  height: calc(100% - 70px);
+}
+.uploads-scroll .new-upload {
+  height: 30px;
+}
+.uploads-scroll .new-upload:hover {
+  cursor: pointer;
+}
+
+/* Dashboard page styles */

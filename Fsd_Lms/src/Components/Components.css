@@ -1,0 +1,73 @@
+.Nav-Bar {
+  height: 60px;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+.nav-logo {
+  padding-right: 4px;
+  border-right: 1px solid gray;
+}
+.nav-p2 {
+  width: 85%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0px 12px;
+}
+.Nav-Bar ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+}
+.Nav-Bar ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+.profile {
+  border-radius: 50%;
+  border: 1.5px solid gray;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  display: flex;
+}
+.profile:hover {
+  cursor: pointer;
+  display: flex;
+}
+.card {
+  min-width: 400px;
+  height: 200px;
+  border: 1px solid #cdcdcd;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card-carousel {
+    height: 230px;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+}
+.card-carousel::-webkit-scrollbar {
+    display: none;
+}
+.file-btn {
+  height: 30px;
+}
+@media screen and (max-width: 500px) {
+  .Nav-Bar {
+    overflow: hidden;
+  }
+}
