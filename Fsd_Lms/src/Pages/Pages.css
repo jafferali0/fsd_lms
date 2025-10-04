@@ -21,8 +21,14 @@
 }
 .login-form input {
   width: 80%;
+  height: 30px;
   cursor: pointer;
 }
+
+.login-form button {
+  padding: 4px 8px;
+}
+
 .login-form label {
   width: 80%;
 }
@@ -143,3 +149,16 @@
 }
 
 /* Dashboard page styles */
+
+/* Home Page */
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+  height: 100vh;
+}
+
+/* Home Page   */

@@ -1,0 +1,326 @@
+{
+    "data": [
+        {
+            "date": "03-october-2025",
+            "title": "HTML Boilerplate",
+            "module": "HTML",
+            "comment": "Basic structure of an HTML document including doctype, head, and body tags.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "CSS Selectors",
+            "module": "CSS",
+            "comment": "Selectors help target specific HTML elements to apply styles.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Flexbox Layout",
+            "module": "CSS",
+            "comment": "Flexbox allows responsive alignment and distribution of items in a container.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Event Listeners",
+            "module": "JavaScript",
+            "comment": "Used to handle user interactions like clicks, mouse movements, and key presses.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Semantic Tags",
+            "module": "HTML",
+            "comment": "Tags like <article>, <section>, and <nav> improve accessibility and SEO.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Box Model",
+            "module": "CSS",
+            "comment": "Describes the layout of elements including margin, border, padding, and content.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "DOM Manipulation",
+            "module": "JavaScript",
+            "comment": "Allows dynamic changes to HTML and CSS using JavaScript.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Forms and Inputs",
+            "module": "HTML",
+            "comment": "Used to collect user data with elements like input, textarea, and select.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Positioning",
+            "module": "CSS",
+            "comment": "Controls how elements are placed using static, relative, absolute, and fixed.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Loops",
+            "module": "JavaScript",
+            "comment": "Used to repeat code blocks using for, while, and do-while loops.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Tables",
+            "module": "HTML",
+            "comment": "Used to display tabular data using <table>, <tr>, <td>, and <th>.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Transitions",
+            "module": "CSS",
+            "comment": "Smoothly animates changes in CSS properties over time.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Functions",
+            "module": "JavaScript",
+            "comment": "Reusable blocks of code that perform specific tasks.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Media Queries",
+            "module": "CSS",
+            "comment": "Enable responsive design by applying styles based on screen size.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Forms Validation",
+            "module": "JavaScript",
+            "comment": "Ensures user inputs meet required criteria before submission.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Lists",
+            "module": "HTML",
+            "comment": "Organize content using ordered, unordered, and description lists.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Grid Layout",
+            "module": "bootstrap",
+            "comment": "Provides a two-dimensional layout system for complex designs.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Variables",
+            "module": "JavaScript",
+            "comment": "Used to store data values using var, let, and const.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Forms Styling",
+            "module": "CSS",
+            "comment": "Customize the appearance of form elements for better UX.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Conditional Statements",
+            "module": "JavaScript",
+            "comment": "Control flow using if, else, and switch statements.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "React Components",
+            "module": "React",
+            "comment": "Understanding functional and class components.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "React State Management",
+            "module": "React",
+            "comment": "Using useState and useReducer for local state.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "React Lifecycle",
+            "module": "React",
+            "comment": "Exploring useEffect and component lifecycle hooks.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Node.js Modules",
+            "module": "Node.js",
+            "comment": "Working with built-in and custom modules.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Node.js File System",
+            "module": "Node.js",
+            "comment": "Reading and writing files using fs module.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Express Routing",
+            "module": "Express",
+            "comment": "Defining routes and handling requests.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Express Middleware",
+            "module": "Express",
+            "comment": "Creating and using middleware functions.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "MongoDB CRUD",
+            "module": "MongoDB",
+            "comment": "Performing create, read, update, delete operations.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "MongoDB Aggregation",
+            "module": "MongoDB",
+            "comment": "Using aggregation pipelines for data analysis.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Mongoose Models",
+            "module": "MongoDB",
+            "comment": "Defining schemas and models with Mongoose.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        }
+    ],
+    "recentUploads": [
+        {
+            "date": "03-october-2025",
+            "title": "Semantic Elements",
+            "module": "HTML",
+            "comment": "Semantic elements like <article> and <section> help define the meaning of content, improving accessibility and SEO.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "CSS Flexbox",
+            "module": "CSS",
+            "comment": "Flexbox is a layout model that allows responsive alignment and distribution of items within a container.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Event Handling",
+            "module": "JavaScript",
+            "comment": "Event handling lets us respond to user interactions like clicks, keypresses, and mouse movements.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Forms and Inputs",
+            "module": "HTML",
+            "comment": "Forms collect user data using input fields, checkboxes, radio buttons, and submit actions.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "CSS Transitions",
+            "module": "CSS",
+            "comment": "Transitions animate changes in CSS properties smoothly over a defined duration.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Loops in JavaScript",
+            "module": "JavaScript",
+            "comment": "Loops like for, while, and do-while allow repeated execution of code blocks based on conditions.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "HTML Tables",
+            "module": "HTML",
+            "comment": "Tables organize data in rows and columns using <table>, <tr>, <td>, and <th> tags.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "CSS Media Queries",
+            "module": "CSS",
+            "comment": "Media queries apply styles conditionally based on screen size, resolution, or device type.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "Functions",
+            "module": "JavaScript",
+            "comment": "Functions are reusable blocks of code that perform specific tasks and improve modularity.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        },
+        {
+            "date": "03-october-2025",
+            "title": "CSS Box Model",
+            "module": "CSS",
+            "comment": "The box model defines how elements are spaced and sized using margin, border, padding, and content.",
+            "uploadedBy": "Sanket",
+            "file": "base-64 string"
+        }
+    ]
+}

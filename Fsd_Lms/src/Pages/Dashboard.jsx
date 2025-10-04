@@ -1,16 +1,26 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import NavBar from "../Components/NavBar";
 import Footer from "../Components/Footer";
 import "./Pages.css";
 import CardCarousel from "../Components/CardCarousel";
 import { dashScrollContext } from "../Contexts/DashboardScroll";
+import ApiCall from "../ApiCall";
+import CardScroller from "../Components/CardScroller";
 
 export default function Dashboard() {
   const DashScrollContext = useContext(dashScrollContext);
-  // console.log(data);
-
-  let data = [1, 2, 3, 6, 7, 9];
-  const end = 408 * data.length;
+  const [impCards, setImpCards] = useState([]);
+  const [scrollCards, setScrollCards] = useState([]);
+  useEffect(() => {
+    async function get() {
+      const res = await ApiCall("/data", "get");
+      setImpCards(res);
+      const scrll = await ApiCall("/recentUploads", "get");
+      setScrollCards(scrll);
+    }
+    get();
+  }, []);
+  const end = 408 * (impCards.length - 1);
 
   function scrollCarosel(action) {
     // if (DashScrollContext.scroll == 0) {
@@ -24,10 +34,21 @@ export default function Dashboard() {
     // } else if (action == "-" && DashScrollContext.scroll >= end * -1) {
     //   DashScrollContext.setScroll(DashScrollContext.scroll - 408);
     // }
-
-    if(action == "+" && DashScrollContext.scroll >= end * -1 && DashScrollContext.scroll != 0) {
+    console.log(DashScrollContext.scroll, "ccccc");
+    if (
+      action == "+" &&
+      DashScrollContext.scroll >= end * -1 &&
+      DashScrollContext.scroll != 0
+    ) {
       DashScrollContext.setScroll(DashScrollContext.scroll + 408);
-    } else if (action == "-" && DashScrollContext.scroll >= end * -1){
+    } else if (action == "-" && DashScrollContext.scroll > end * -1) {
+      console.log(DashScrollContext.scroll, end);
+      DashScrollContext.setScroll(DashScrollContext.scroll - 408);
+    } else if (
+      action == "-" &&
+      DashScrollContext.scroll == 0 &&
+      DashScrollContext.scroll > end * -1
+    ) {
       DashScrollContext.setScroll(DashScrollContext.scroll - 408);
     }
   }
@@ -74,12 +95,14 @@ export default function Dashboard() {
               </button>
             </div>
           </div>
-          <CardCarousel data={data} />
+          <CardCarousel data={impCards} />
         </div>
 
         <div className="uploads-scroll">
           <div className="title">Recent Uploads</div>
-          <div className="scrolling-content">Content</div>
+          <div className="scrolling-content">
+            <CardScroller data={scrollCards} />
+          </div>
           <button className="new-upload">New Upload +</button>
         </div>
       </div>

@@ -1,0 +1,33 @@
+.main-table {
+  width: 99%;
+  border-collapse: collapse;
+  height: 30px;
+  margin: 10px auto;
+  text-align: center;
+}
+.thead {
+    height: 30px;
+    background-color: #cdcdcd;
+}
+.main-table td {
+  padding: 8px;
+}
+.r1 {
+  width: 10%;
+}
+.r2 {
+  width: 20%;
+}
+.r3 {
+  width: 20%;
+}
+.r4 {
+  width: 15%;
+}
+.r5 {
+  width: 30%;
+}
+.r6 {
+  width: 5%;
+}
+

@@ -53,19 +53,34 @@
   gap: 8px;
 }
 .card-carousel {
-    height: 230px;
-    display: flex;
-    overflow-x: scroll;
-    align-items: center;
-    gap: 8px;
-    padding: 8px;
+  height: 230px;
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
 }
 .card-carousel::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 .file-btn {
   height: 30px;
+  cursor: pointer;
 }
+
+.card-scroller {
+  height: 100%;
+  display: flex;
+  overflow-x: hidden;
+  /* align-items: center; */
+  gap: 8px;
+  padding: 8px;
+}
+
+.card-scroller::-webkit-scrollbar {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   .Nav-Bar {
     overflow: hidden;
